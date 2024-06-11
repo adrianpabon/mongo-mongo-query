@@ -1,4 +1,4 @@
-use("simple_training")
+use("sample_training")
 
 
-db.zips.find({state: "NY"})
+db.zips.find({state: "NY"}).count()
